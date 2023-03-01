@@ -1,5 +1,9 @@
 body {
-  background-color: rgb(113, 103, 149);
-  margin: 0;
-  padding: 0;
+	background-color: rgb(113, 103, 149);
+	margin: 0;
+	padding: 0;
+
+	@media (min-width: 768px) {
+		background-color: #20e99c;
+	}
 }

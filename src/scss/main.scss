@@ -3,5 +3,9 @@
 @import "./utils/_utils";
 
 h1 {
-  color: #0b9d4f;
+	color: #0b9d4f;
+
+	@media (min-width: 768px) {
+		color: #0b1a9d;
+	}
 }
